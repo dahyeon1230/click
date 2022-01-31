@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    /* 뷰포트 높이의 1% */
+    /* px고정단위 */
+    /* vw,vh유연한 값을 가지는 단위 */
+    /* 뷰포트를 기준으로 한다. */
+    /* 단위에 대해서 정리하기 */
+    display: flex;
+   /* 레이아웃 배치 전용 기능 */
+   /* 가로방향으로 배치 */
+   /* css최신 레이아웃 모델  */
+    justify-content: center;
+    /* 아이템들의 정렬 방법 */
+    align-items: center;
+    /* align-items 속성은 플렉스 요소의 수직 방향 정렬 방식을 설정 */
+    /* http://www.tcpschool.com/css/css3_expand_flexbox */
+}
